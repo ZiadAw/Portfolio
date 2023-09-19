@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.Navigation{
+    background-color: #058ef7;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+}
+
+.Navigation a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.Logo{
+    font-family: "Open Sans";
+}
+
+.Introduction{
+    background-color: #0484ad;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.Skills{
+    background-color: #ad5104;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Hobbies{
+    background-color: #f77305;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Pages{
+    width: 100%;
+    height: 100vh;
+    color: #ffffff;
+    padding-top: 50px;
+}
+
+.IntroductionContent{
+    width: 80%;
+    height: 80%;
+    border-color: white;
+    border-style: solid;
+    margin: auto; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.Image{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.IntroText{
+    max-width: 90%;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.Name{
+    margin: auto;
+    width: 100%;
+}
+
+.TextSection{
+    margin: auto;
+    text-align: center;
+}
+
+.SkillsDiv{
+    width: 27%;
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+}
+
+.SkillsImage{
+    width: 50%;
+    aspect-ratio: 1/1.5;
+}
+p{
+    font-size: 2rem;
+}
+h1{
+    font-size: 2.6rem;
+}
